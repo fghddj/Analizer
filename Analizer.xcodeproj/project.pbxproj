@@ -13,6 +13,8 @@
 		EC8D385F19D1AC7400642504 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8D385E19D1AC7400642504 /* Images.xcassets */; };
 		EC8D386219D1AC7400642504 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC8D386019D1AC7400642504 /* LaunchScreen.xib */; };
 		EC8D386E19D1AC7400642504 /* AnalizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D386D19D1AC7400642504 /* AnalizerTests.swift */; };
+		EC8D387819D1B0AF00642504 /* Get.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D387719D1B0AF00642504 /* Get.swift */; };
+		EC8D387A19D1B3E400642504 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D387919D1B3E400642504 /* Comment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		EC8D386719D1AC7400642504 /* AnalizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnalizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8D386C19D1AC7400642504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC8D386D19D1AC7400642504 /* AnalizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalizerTests.swift; sourceTree = "<group>"; };
+		EC8D387719D1B0AF00642504 /* Get.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Get.swift; sourceTree = "<group>"; };
+		EC8D387919D1B3E400642504 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +83,12 @@
 			children = (
 				EC8D385719D1AC7400642504 /* AppDelegate.swift */,
 				EC8D385919D1AC7400642504 /* ViewController.swift */,
+				EC8D387719D1B0AF00642504 /* Get.swift */,
 				EC8D385B19D1AC7400642504 /* Main.storyboard */,
 				EC8D385E19D1AC7400642504 /* Images.xcassets */,
 				EC8D386019D1AC7400642504 /* LaunchScreen.xib */,
 				EC8D385519D1AC7400642504 /* Supporting Files */,
+				EC8D387919D1B3E400642504 /* Comment.swift */,
 			);
 			path = Analizer;
 			sourceTree = "<group>";
@@ -214,6 +220,8 @@
 			files = (
 				EC8D385A19D1AC7400642504 /* ViewController.swift in Sources */,
 				EC8D385819D1AC7400642504 /* AppDelegate.swift in Sources */,
+				EC8D387819D1B0AF00642504 /* Get.swift in Sources */,
+				EC8D387A19D1B3E400642504 /* Comment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
