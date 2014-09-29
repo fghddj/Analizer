@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC8898BF19D96BD8002FA98A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8898BE19D96BD8002FA98A /* DetailView.swift */; };
 		EC8D385819D1AC7400642504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D385719D1AC7400642504 /* AppDelegate.swift */; };
 		EC8D385A19D1AC7400642504 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D385919D1AC7400642504 /* ViewController.swift */; };
 		EC8D385D19D1AC7400642504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8D385B19D1AC7400642504 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC8898BE19D96BD8002FA98A /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		EC8D385219D1AC7400642504 /* Analizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Analizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8D385619D1AC7400642504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC8D385719D1AC7400642504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				EC8D386019D1AC7400642504 /* LaunchScreen.xib */,
 				EC8D385519D1AC7400642504 /* Supporting Files */,
 				EC8D387919D1B3E400642504 /* Comment.swift */,
+				EC8898BE19D96BD8002FA98A /* DetailView.swift */,
 			);
 			path = Analizer;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				EC8D385A19D1AC7400642504 /* ViewController.swift in Sources */,
 				EC8D385819D1AC7400642504 /* AppDelegate.swift in Sources */,
 				EC8D387819D1B0AF00642504 /* Get.swift in Sources */,
+				EC8898BF19D96BD8002FA98A /* DetailView.swift in Sources */,
 				EC8D387A19D1B3E400642504 /* Comment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +419,7 @@
 				EC8D387319D1AC7400642504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC8D387419D1AC7400642504 /* Build configuration list for PBXNativeTarget "AnalizerTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +428,7 @@
 				EC8D387619D1AC7400642504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

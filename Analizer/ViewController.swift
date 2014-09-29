@@ -26,6 +26,11 @@ class ViewController: UITableViewController {
         return 1
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        var detailView:DetailView = segue.destinationViewController as DetailView
+        detailView.comment = comments[tableView.indexPathForSelectedRow()!.row]
+    }
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var cellIdentifier = "commentCell"
         var cell:UITableViewCell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as UITableViewCell
